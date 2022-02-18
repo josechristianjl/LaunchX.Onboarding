@@ -1,21 +1,18 @@
 # Ejercicio - Crear un paquete
 
-En este ejercicio, aprenderás a utilizar entornos virtuales como una forma para no afectar a los paquetes instalados globalmente u otros programas que se ejecutan en tu máquina.
-
-*Para este ejercicio es necesario que lo ejecutes desde la terminal, línea de comandos, cmd, consola, cli, etc. de tu computadora, sé que es desafíante, pero no te preocupes ¡¡Sé que puedes lograrlo!!*
-
 ## Crear un entorno virtual
 
 Crea un entorno virtual mediante ``venv``
 
 * Ejecutar en su terminal: ``python3 -m venv env`` o bien ``python -m venv env``
 
-    ```
-       python3 -m venv env 
-    ```
     ``
     python -m venv env
     ``
+    
+    ![1](https://user-images.githubusercontent.com/99307349/154655164-8be2656b-3294-4b6c-b377-f1e46a4be5d8.JPG)
+
+    
     Ahora tienes un directorio (folder) ``env`` creado en tu terminal.
 
 * Ejecuta el comando para activar el entorno virtual: ``source env/bin/activate``
@@ -31,10 +28,9 @@ Crea un entorno virtual mediante ``venv``
     # Linux, WSL or macOS
     source env/bin/activate
     ```
+    
+![2](https://user-images.githubusercontent.com/99307349/154655393-ad8eb529-0dc2-4cff-82ec-d44a960dc500.JPG)
 
-Ahora ves en tu terminal ``(env)``. Eso significa que has activado tu entorno virtual y se ha aislado del resto de tu máquina.
-
-![image](https://user-images.githubusercontent.com/9124597/153076991-25e857c5-a910-4d54-80b9-47fce1b62147.png)
 
 ## Instalar una biblioteca
 
@@ -66,6 +62,9 @@ Ahora que estás dentro de tu entorno virtual, puedes instalar una biblioteca y 
     python-dateutil==2.8.2
     six==1.16.0
     ```
+    
+![3](https://user-images.githubusercontent.com/99307349/154655634-6e6ab2e0-caa4-4520-973f-c6b60cb8a324.JPG)
+
 
 ### Desactivar un entorno virtual
 
@@ -78,14 +77,5 @@ deactivate
 
 Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 
-¡Felicidades! Has logrado crear y usar correctamente un entorno virtual.
+![4](https://user-images.githubusercontent.com/99307349/154655786-973313fc-27ff-49ae-929a-c03eb344f708.JPG)
 
-
-Curso Propedútico de Python para Launch X - Innovacción Virtual.
-
-Material desarrollado con base en los contenidos de MSLearn y la metáfora de LaunchX, traducción e implementación por: Fernanda Ochoa - Learning Producer de LaunchX.
-
-Redes:
-* GitHub: [FernandaOchoa](https://github.com/FernandaOchoa)
-* Twitter: [@imonsh](https://twitter.com/imonsh)
-* Instagram: [fherz8a](https://www.instagram.com/fherz8a/)
