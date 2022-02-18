@@ -80,4 +80,4 @@ Observa cómo cambia el mensaje de tu terminal ``(env)`` a cómo se veía antes.
 ![4](https://user-images.githubusercontent.com/99307349/154655786-973313fc-27ff-49ae-929a-c03eb344f708.JPG)
 
 
-## Fin del modulo 10.
+## Fin del modulo 2.
